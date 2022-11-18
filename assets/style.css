@@ -1,7 +1,6 @@
 .inline {
   display: block;
-  width: 50px;
-  height: 50px;
+
   color: aliceblue;
   text-align: center;
   margin-bottom: 40px;
@@ -17,19 +16,16 @@
 
 .inline-block {
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  padding: 50px;
   color: aliceblue;
   text-align: center;
   margin-right: 100px;
 }
 
 .flex {
-  width: 100px;
-  height: 100px;
   color: aliceblue;
   text-align: center;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 .flex-end {
@@ -66,6 +62,7 @@
 
 .jc {
   margin-bottom: 0px;
+  padding: 50px;
 }
 
 .box-parent {
@@ -97,4 +94,12 @@
 }
 .rev {
   flex-direction: column-reverse;
+}
+
+.align-items {
+  align-items: flex-start;
+}
+
+.one {
+  align-self: baseline;
 }
