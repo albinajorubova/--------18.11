@@ -5,58 +5,167 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Display_FlexBox</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div class="title">Display: inline</div>
-
-    <div class="inline block-1">1</div>
-    <div class="inline block-2">2</div>
-    <div class="inline block-3">3</div>
-    <div class="inline block-4">4</div>
-
     <div class="title">Display: block</div>
-    <div class="block block-1">1</div>
-    <div class="block block-2">2</div>
-    <div class="block block-3">3</div>
-    <div class="block block-4">4</div>
+    <div class="main-block">
+      <div class="block block-1">1</div>
+      <div class="block block-2">2</div>
+      <div class="block block-3">3</div>
+      <div class="block block-4">4</div>
+    </div>
+
+    <div class="title">Display: inline</div>
+    <div class="main-block">
+      <div class="inline block-1">1</div>
+      <div class="inline block-2">2</div>
+      <div class="inline block-3">3</div>
+      <div class="inline block-4">4</div>
+    </div>
 
     <div class="title">Display: inline-block</div>
-
-    <div class="inline-block block-1">1</div>
-    <div class="inline-block block-2">2</div>
-    <div class="inline-block block-3">3</div>
-    <div class="inline-block block-4">4</div>
+    <div class="main-block">
+      <div class="inline-block block-1">1</div>
+      <div class="inline-block block-2">2</div>
+      <div class="inline-block block-3">3</div>
+      <div class="inline-block block-4">4</div>
+    </div>
 
     <div class="title">Display: flex-end</div>
-    <div class="box-parent flex-end">
-      <div class="flex fb1 block-1">1</div>
-      <div class="flex fb2 block-2">2</div>
-      <div class="flex fb3 block-3">3</div>
-      <div class="flex fb4 block-4">4</div>
+    <div class="main-block">
+      <div class="box-parent flex-end">
+        <div class="flex fb1 block-1">1</div>
+        <div class="flex fb2 block-2">2</div>
+        <div class="flex fb3 block-3">3</div>
+        <div class="flex fb4 block-4">4</div>
+      </div>
     </div>
 
     <div class="title">Display: flex justify-content</div>
-    <div class="box-parent juscon">
-      <div class="flex jc block-1">1</div>
-      <div class="flex jc block-2">2</div>
-      <div class="flex jc block-3">3</div>
-      <div class="flex jc block-4">4</div>
+    <div class="main-block">
+      <div class="box-parent juscon">
+        <div class="flex jc block-1">1</div>
+        <div class="flex jc block-2">2</div>
+        <div class="flex jc block-3">3</div>
+        <div class="flex jc block-4">4</div>
+      </div>
     </div>
 
     <div class="title">Display: flex-direction column</div>
-    <div class="box-parent column">
-      <div class="flex fb1 block-1">1</div>
-      <div class="flex fb2 block-2">2</div>
-      <div class="flex fb3 block-3">3</div>
-      <div class="flex fb4 block-4">4</div>
+    <div class="main-block">
+      <div class="box-parent column">
+        <div class="flex fb1 block-1">1</div>
+        <div class="flex fb2 block-2">2</div>
+        <div class="flex fb3 block-3">3</div>
+        <div class="flex fb4 block-4">4</div>
+      </div>
     </div>
     <div class="title">Display: flex-direction column-reverse</div>
-    <div class="box-parent column rev">
-      <div class="flex fb1 block-1">1</div>
-      <div class="flex fb2 block-2">2</div>
-      <div class="flex fb3 block-3">3</div>
-      <div class="flex fb4 block-4">4</div>
+    <div class="main-block">
+      <div class="box-parent column rev">
+        <div class="flex fb1 block-1">1</div>
+        <div class="flex fb2 block-2">2</div>
+        <div class="flex fb3 block-3">3</div>
+        <div class="flex fb4 block-4">4</div>
+      </div>
     </div>
+
+    <p class="font600">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore esse
+      maxime mollitia modi excepturi nobis vero itaque reiciendis fugiat in.
+    </p>
+
+    <p class="font700">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laudantium
+      assumenda voluptate obcaecati voluptatem perspiciatis vel reiciendis
+      totam, sit provident.
+    </p>
+    <p class="colorred">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque enim unde
+      natus dignissimos voluptatem vel.
+    </p>
+
+    <p class="textright">Lorem ipsum dolor sit amet.</p>
+
+    <p class="textjust">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eum architecto
+      vero, assumenda possimus distinctio vitae facere, sit recusandae
+      perferendis repellendus unde voluptates saepe, ab cumque corporis quisquam
+      nesciunt! Ullam tempora a in consequuntur dolore?
+    </p>
+    <p class="textdecor1">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, odio
+      rerum sapiente ipsa ducimus labore?
+    </p>
+    <p class="textdecor2">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, odio
+      rerum sapiente ipsa ducimus labore?
+    </p>
+
+    <p class="textdecor3">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, odio
+      rerum sapiente ipsa ducimus labore?
+    </p>
+    <p class="shadow">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, minus
+      exercitationem! Saepe nostrum neque nisi?
+    </p>
+    <p class="transform">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae
+      eius animi delectus doloremque fugit.
+    </p>
+    <p class="indent">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum officia
+      magni aliquid, voluptas, incidunt saepe ut nobis exercitationem fugit
+      blanditiis similique, nam minima repellendus doloribus pariatur hic
+      sapiente. Reiciendis similique, libero dolores perspiciatis nostrum
+      doloribus illum! Quos quam dolore distinctio.
+    </p>
+    <p class="lspace">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum officia
+      magni aliquid, voluptas, incidunt saepe ut nobis exercitationem fugit
+      blanditiis similique, nam minima repellendus doloribus pariatur hic
+      sapiente. Reiciendis similique, libero dolores perspiciatis nostrum
+      doloribus illum! Quos quam dolore distinctio.
+    </p>
+    <p class="wspace">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum officia
+      magni aliquid, voluptas, incidunt saepe ut nobis exercitationem fugit
+      blanditiis similique, nam minima repellendus doloribus pariatur hic
+      sapiente. Reiciendis similique, libero dolores perspiciatis nostrum
+      doloribus illum! Quos quam dolore distinctio.
+    </p>
+    <p class="whspace">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum officia
+      magni aliquid, voluptas, incidunt saepe ut nobis exercitationem fugit
+      blanditiis similique, nam minima repellendus doloribus pariatur hic
+      sapiente. Reiciendis similique, libero dolores perspiciatis nostrum
+      doloribus illum! Quos quam dolore distinctio.
+    </p>
+    <p class="lineh">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure cum fuga
+      doloribus quis unde et? Amet adipisci debitis consequuntur iste
+      praesentium repudiandae modi architecto exercitationem! Quod ipsum odit
+      sint non harum cum quam dolores obcaecati voluptatibus! Ducimus nostrum,
+      exercitationem fugit maxime suscipit quia, ex a nam, facilis illo at?
+      Odio, labore explicabo debitis deserunt cumque possimus in fugit alias
+      nobis.
+    </p>
   </body>
 </html>
